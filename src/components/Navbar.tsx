@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div>
       <header className="bg-white border-b border-gray-200">
-        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-3 md:py-4">
             {/* Left: Search Bar */}
             <div className="flex-1 max-w-2xl">
