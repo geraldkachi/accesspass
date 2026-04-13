@@ -1,5 +1,5 @@
+import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import React, { useState, useEffect } from 'react';
 
 // Types
 interface Schedule {
