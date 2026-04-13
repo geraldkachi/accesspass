@@ -19,6 +19,7 @@ export interface RowAction<T = any> {
   name: string;
   action: () => void;
   hide?: boolean;
+  view?: (row: T, rowIndex: number) => ReactNode;
 }
 
 export interface Column<T = any> {

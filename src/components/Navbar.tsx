@@ -1,4 +1,3 @@
-import React from 'react';
 import { useAuthStore } from '../store/authStore';
 import { Search, Bell, Grid, User, LogOut } from 'lucide-react';
 
